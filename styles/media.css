@@ -81,6 +81,72 @@
         margin-top: 0;
         background-position: -650px -20px;
     }
+    #content div#home div div#calendar {
+        float: none;
+        margin-left: 5px;
+        padding: 0;
+        width: 305px;
+    }
+    #content div#home div div#aside {
+        float: left;
+        padding: 0;
+        width: auto;
+    }
+    #content div#home div div#aside div {
+        margin-bottom: 40px;
+        float: none;
+        margin-left: 0;
+        margin-top: 0;
+        min-height: 0;
+        padding: 0;
+        width: 260px;
+    }
+     
+    #content div#home div div#aside div h1, #content div h1 {
+   
+        width: auto;
+    }
+
+    #content div#home div div#aside div p, #content div p {
+        width: auto;
+    }
+    #content div#home div div#aside div p, #content div p {
+        width: auto;
+    }
+
+        ul {
+            display: inline;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+        #content div#home div div#aside ul li {
+            border: none;
+            float: none;
+            margin-right: 0;
+            padding-bottom: 0;
+            padding-right: 25px;
+            padding-top: 0;
+            width: 10260px0%;
+        }
+        #content div#home div div#aside ul li {
+            border: none;
+            float: none;
+            margin-right: 0;
+            padding-bottom: 0;
+            padding-right: 25px;
+            padding-top: 0;
+            width: 260px%;
+        }
+        #footer div div.section {
+            float: left;
+            padding: 0;
+            width: auto;
+            display: inline;
+        }
 }
 
 @media only screen and (max-width: 470px) {
@@ -103,4 +169,6 @@
     #page #header #tagline div p {
         font-size: 18px;
     }
+
+
 }
