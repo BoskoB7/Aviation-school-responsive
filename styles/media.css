@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 999px) {
     #page #header {
         background: #274F75;
@@ -85,12 +89,12 @@
         float: none;
         margin-left: 5px;
         padding: 0;
-        width: 305px;
+        width: 100%;
     }
     #content div#home div div#aside {
         float: left;
         padding: 0;
-        width: auto;
+        width: 100%;
     }
     #content div#home div div#aside div {
         margin-bottom: 40px;
@@ -99,7 +103,7 @@
         margin-top: 0;
         min-height: 0;
         padding: 0;
-        width: 260px;
+        width: 100%;
     }
      
     #content div#home div div#aside div h1, #content div h1 {
@@ -130,7 +134,7 @@
             padding-bottom: 0;
             padding-right: 25px;
             padding-top: 0;
-            width: 10260px0%;
+            width: 260px;
         }
         #content div#home div div#aside ul li {
             border: none;
@@ -139,13 +143,30 @@
             padding-bottom: 0;
             padding-right: 25px;
             padding-top: 0;
-            width: 260px%;
+            width: 260px;
         }
         #footer div div.section {
             float: left;
             padding: 0;
             width: auto;
             display: inline;
+        }
+        #page #content {
+           
+        width: 100%;
+        }
+        #content div#home {
+          
+            width: 100%;
+        }
+        #content div#home div {
+            width: 100%;
+        }
+        #content div#home div div#aside div img, #content div img {
+            float: none;
+        }
+        #content div#home div {
+        box-sizing: border-box;
         }
 }
 
@@ -169,6 +190,7 @@
     #page #header #tagline div p {
         font-size: 18px;
     }
+
 
 
 }
